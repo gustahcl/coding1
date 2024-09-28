@@ -35,3 +35,22 @@ const desconto = (precoOriginal * percentualDesconto) / 100;
 const precoFinal = precoOriginal - desconto;
 console.log(`O preço original do produto é R$ ${precoOriginal.toFixed(2)}.`);
 console.log(`Com um desconto de ${percentualDesconto}%, o valor final é R$ ${precoFinal.toFixed(2)}.`);
+
+let salarioBruto = 3000;
+let aliquota = 0.15;
+let imposto = salarioBruto * aliquota;
+console.log(`O imposto de renda a ser pago é ${imposto}.`);
+
+let valorInicial = 100;
+let taxaCambio = 5.5;
+let valorConvertido = valorInicial * taxaCambio;
+console.log(`O valor convertido é ${valorConvertido}.`);
+
+let temperaturaCelsius = 25;
+let temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
+console.log(`A temperatura em Fahrenheit é ${temperaturaFahrenheit}.`);
+
+let peso = 70;
+let altura = 1.75;
+let imc = peso / (altura * altura);
+console.log(`O seu IMC é ${imc.toFixed(2)}.`);
