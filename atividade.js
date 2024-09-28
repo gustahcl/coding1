@@ -46,7 +46,7 @@ let taxaCambio = 5.5;
 let valorConvertido = valorInicial * taxaCambio;
 console.log(`O valor convertido é ${valorConvertido}.`);
 
-let temperaturaCelsius = 25;
+let temperaturaCelsius = 23;
 let temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
 console.log(`A temperatura em Fahrenheit é ${temperaturaFahrenheit}.`);
 
